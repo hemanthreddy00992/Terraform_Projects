@@ -11,3 +11,5 @@ By leveraging Terraform, this repository simplifies the process of deploying and
 It also incorporates best practices for security, cost optimization, and compliance, ensuring that the infrastructure is both robust and secure.
 Whether for development, staging, or production, these Terraform files provide a flexible foundation to meet the unique needs of each project. 
 Additionally, the repository is continuously updated to support new services, ensuring that teams can stay ahead with the latest cloud offerings. The comprehensive nature of the repository makes it an invaluable resource for teams looking to streamline their cloud infrastructure management and drive innovation across critical projects.
+
+<img width="751" alt="Screenshot 2024-12-05 at 11 32 27 AM" src="https://github.com/user-attachments/assets/1bd2f7cf-fb3c-4115-b9a3-a8d82d2a072c">
