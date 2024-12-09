@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   instance_type = var.instance_type
   associate_public_ip_address = "true"
   availability_zone = element(var.ava_zone, count.index)
-  vpc_security_group_ids = var.sg_id
+  vpc_security_group_ids = [var.sg_id]
   subnet_id = element(var.subnet_id, count.index)
   #var.subnet_id[count.index]
   
