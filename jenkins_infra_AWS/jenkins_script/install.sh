@@ -2,7 +2,7 @@
 
 # java install
 sudo apt update
-sleep 2
+sleep 10
 yes | sudo apt install fontconfig openjdk-17-jre
 java -version
 openjdk version "17.0.8" 2023-07-18
@@ -13,7 +13,7 @@ sleep 30
 
 # Jenkins install 
 sudo apt-get update
-sleep 2
+sleep 10
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
@@ -25,6 +25,6 @@ yes | sudo apt-get install jenkins
 
 sleep 10
 sudo systemctl enable jenkins
-sleep 2
+sleep 5
 sudo systemctl start jenkins
 
